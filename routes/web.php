@@ -2,4 +2,5 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/','/landig.about');
+Route::view('/','landing.index')->name('index');
+Route::view('/about','landing.about')->name('about');
